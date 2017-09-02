@@ -19,6 +19,7 @@ def main(script):
 
     script: string script name
     """
+    df = nsfg.ReadFemResp()
     print('%s: All tests passed.' % script)
 
 
